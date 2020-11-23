@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "Greet someone"
+author: "adityads@ymail.com"
+
+inputs:
+  MY_NAME:
+    description: "AdityaDS"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
